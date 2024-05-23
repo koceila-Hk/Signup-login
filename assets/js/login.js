@@ -21,7 +21,6 @@ login_form.addEventListener('submit', async(e) => {
 
         if (response.status == 200) {
             window.location.href = './home.html';
-            console.log('Login succeful');
         } else {
             span.style.display = 'block';
             span.textContent = 'Identifiant ou mot de passe incorrect. Veuillez réessayer.'

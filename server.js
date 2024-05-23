@@ -22,10 +22,7 @@ app.post('/form', async function (req,res){
     const database = client.db(dbname);
     const collection = database.collection(collectionName);
 
-    const users = []
-    users.push(data)
-
-    const insert= await collection.insertMany(users)
+    const insert = await collection.insertMany([data]);
 })
 
 ////////// Login

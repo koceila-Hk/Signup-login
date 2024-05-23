@@ -12,6 +12,7 @@ form_register.addEventListener('submit', async (e) => {
     const password = document.getElementById('psw').value;
     const pswConfirm = document.getElementById('cfm-psw').value;
     const span = document.querySelector('span')
+    
 
     if(password !== pswConfirm){
         span.style.display='block'

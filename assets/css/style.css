@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: grey;
+    padding: 20px;
+}
+
+a {
+    color: black;
+}
